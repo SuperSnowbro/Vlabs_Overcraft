@@ -1,0 +1,895 @@
+﻿Log file open, 03/05/17 17:16:57
+LogInit:Display: Running engine for game: VlabsOvercraft
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-997332426) SRandInit(-997332426).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.062693
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealInstallations/UE4.15/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.05-16.16.58:292][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-16.16.58:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.05-16.16.58:303][  0]LogInit: Computer: VIGAMUS-07
+[2017.03.05-16.16.58:303][  0]LogInit: User: vigamus07
+[2017.03.05-16.16.58:303][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.03.05-16.16.58:303][  0]LogInit: High frequency timer resolution =2.533201 MHz
+[2017.03.05-16.16.58:303][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.05-16.16.58:303][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-16.16.58:303][  0]LogMemory: Process Physical Memory: 262.06 MB used, 262.06 MB peak
+[2017.03.05-16.16.58:304][  0]LogMemory: Process Virtual Memory: 262.04 MB used, 262.04 MB peak
+[2017.03.05-16.16.58:304][  0]LogMemory: Physical Memory: 3667.29 MB used,  4434.21 MB free, 8101.50 MB total
+[2017.03.05-16.16.58:304][  0]LogMemory: Virtual Memory: 641.94 MB used,  4434.21 MB free, 134217728.00 MB total
+[2017.03.05-16.16.58:371][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.05-16.16.59:019][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.05-16.16.59:048][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.03.05-16.16.59:048][  0]LogD3D11RHI:       1995/0/4050 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.05-16.16.59:053][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.03.05-16.16.59:053][  0]LogD3D11RHI:       112/0/4050 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.05-16.16.59:056][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.05-16.16.59:056][  0]LogD3D11RHI:       0/0/4050 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.05-16.16.59:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.05-16.16.59:060][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.05-16.16.59:060][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.05-16.16.59:060][  0]LogWindows: EnumDisplayDevices:
+[2017.03.05-16.16.59:060][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.03.05-16.16.59:060][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.03.05-16.16.59:060][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.03.05-16.16.59:060][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.05-16.16.59:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.03.05-16.16.59:060][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.05-16.16.59:060][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.05-16.16.59:060][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.05-16.16.59:075][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.03.05-16.16.59:075][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.05-16.16.59:092][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.05-16.16.59:092][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Intermediate/Shaders/WorkingDirectory/2100/).
+[2017.03.05-16.16.59:092][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vigamus07/AppData/Local/Temp/UnrealShaderWorkingDir/01D3EED34866E41D33209CBAF0694466/'.
+[2017.03.05-16.16.59:092][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.05-16.17.00:440][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.05-16.17.00:526][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.05-16.17.00:616][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.05-16.17.00:702][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.05-16.17.00:796][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.05-16.17.00:883][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.05-16.17.00:982][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.05-16.17.01:075][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.05-16.17.01:144][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.05-16.17.01:229][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.05-16.17.01:309][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.05-16.17.01:426][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.05-16.17.01:540][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.05-16.17.01:615][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.05-16.17.01:688][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.05-16.17.01:891][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.05-16.17.01:891][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.05-16.17.01:941][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.05-16.17.02:044][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.05-16.17.02:082][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.05-16.17.02:130][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.05-16.17.02:186][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.05-16.17.02:232][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.05-16.17.02:314][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.05-16.17.02:314][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.05-16.17.03:002][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.05-16.17.03:075][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/vigamus07/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-16.17.03:075][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vigamus07/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.05-16.17.03:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.05-16.17.03:075][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.05-16.17.03:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.05-16.17.03:075][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.05-16.17.03:115][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.05-16.17.03:135][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vigamus07/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.05-16.17.03:151][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.05-16.17.03:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-16.17.03:152][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-16.17.03:618][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-16.17.03:624][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.05-16.17.03:906][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.05-16.17.03:943][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.05-16.17.03:987][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.05-16.17.03:987][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.05-16.17.03:987][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.05-16.17.04:560][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: vlabsovercraft, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2399169033
+[2017.03.05-16.17.04:603][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.03.05-16.17.04:649][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.024009 seconds
+[2017.03.05-16.17.04:655][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.05-16.17.04:655][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.05-16.17.04:655][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.05-16.17.04:704][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.05-16.17.06:402][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.05-16.17.06:472][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.05-16.17.07:284][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.05-16.17.07:926][  0]SourceControl: Info Source control is disabled
+[2017.03.05-16.17.08:006][  0]SourceControl: Info Source control is disabled
+[2017.03.05-16.17.08:089][  0]SourceControl: Info Source control is disabled
+[2017.03.05-16.17.08:162][  0]SourceControl: Info Source control is disabled
+[2017.03.05-16.17.09:775][  0]LogEngine: Initializing Engine...
+[2017.03.05-16.17.09:775][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.05-16.17.10:184][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.05-16.17.10:196][  0]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.17.10:402][  0]LogInit: FAudioDevice initialized.
+[2017.03.05-16.17.10:439][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/vigamus07/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-16.17.10:449][  0]LogInit: Texture streaming: Enabled
+[2017.03.05-16.17.10:608][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.05-16.17.10:771][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-16.17.10:848][  0]LogInit: Transaction tracking system initialized
+[2017.03.05-16.17.11:379][  0]BlueprintLog: New page: Editor Load
+[2017.03.05-16.17.12:679][  0]LocalizationService: Info Localization service is disabled
+[2017.03.05-16.17.13:524][  0]LogConsoleResponse:Display: 
+[2017.03.05-16.17.13:695][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.05-16.17.13:695][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.05-16.17.14:573][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Content/' took 0.01s
+[2017.03.05-16.17.14:617][  0]SourceControl: Info Source control is disabled
+[2017.03.05-16.17.14:617][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.05-16.17.14:617][  0]LightingResults: New page: Lighting Build
+[2017.03.05-16.17.14:652][  0]MapCheck: New page: Map Check
+[2017.03.05-16.17.14:652][  0]LightingResults: New page: Lighting Build
+[2017.03.05-16.17.15:151][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.05-16.17.15:155][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.05-16.17.15:162][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.05-16.17.15:181][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.05-16.17.15:234][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.587ms to complete.
+[2017.03.05-16.17.15:234][  0]LogFileHelpers: Loading map 'Template_Default' took 0.617
+[2017.03.05-16.17.15:527][  0]LogCollectionManager: Loaded 0 collections in 0.001531 seconds
+[2017.03.05-16.17.15:621][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Saved/Collections/' took 0.01s
+[2017.03.05-16.17.15:621][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Content/Developers/vigamus07/Collections/' took 0.01s
+[2017.03.05-16.17.15:621][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Content/Collections/' took 0.01s
+[2017.03.05-16.17.15:621][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.03.05-16.17.15:639][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2244 classes and 450 folders.
+[2017.03.05-16.17.15:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.05-16.17.15:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.05-16.17.15:721][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.03.05-16.17.15:776][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.03.05-16.17.15:836][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.03.05-16.17.15:912][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.05-16.17.15:923][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-16.17.15:995][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.03.05-16.17.15:996][  0]LogLoad: (Engine Initialization) Total time: 19.12 seconds
+[2017.03.05-16.17.15:996][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.03.05-16.17.15:996][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.05-16.17.15:996][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.05-16.17.16:041][  0]LogOcInput: OculusInput pre-init called
+[2017.03.05-16.17.16:061][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.05-16.17.16:063][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.05-16.17.16:068][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.05-16.17.16:078][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.05-16.17.16:189][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-16.17.16:291][  0]LogRenderer: Reallocating scene render targets to support 840x328 NumSamples 1 (Frame:2).
+[2017.03.05-16.17.16:380][  1]LogAssetRegistry: Asset discovery search completed in 11.7980 seconds
+[2017.03.05-16.17.16:380][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.03.05-16.17.16:380][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.03.05-16.17.17:038][ 27]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-16.21.44:495][717]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-16.21.44:690][717]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.21.44:727][717]Cmd: MAP LOAD FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.05-16.21.44:727][717]LightingResults: New page: Lighting Build
+[2017.03.05-16.21.44:729][717]LoadErrors: New page: Loading map: MyMap.umap
+[2017.03.05-16.21.44:730][717]MapCheck: New page: Map Check
+[2017.03.05-16.21.44:730][717]LightingResults: New page: Lighting Build
+[2017.03.05-16.21.44:774][717]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.05-16.21.44:796][717]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.05-16.21.44:827][717]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.158ms to complete.
+[2017.03.05-16.21.44:827][717]LogFileHelpers: Loading map 'MyMap' took 0.101
+[2017.03.05-16.22.10:722][494]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.22.10:736][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-16.22.10:736][494]PIE: New page: PIE session: MyMap (5 Mar 2017 18:22:10)
+[2017.03.05-16.22.10:736][494]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.22.10:751][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014169s)
+[2017.03.05-16.22.10:751][494]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.22.10:751][494]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.03.05-16.22.10:752][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.015308s)
+[2017.03.05-16.22.10:778][494]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.22.10:781][494]LogInit: FAudioDevice initialized.
+[2017.03.05-16.22.10:830][494]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.22.10:835][494]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.22.10
+[2017.03.05-16.22.10:835][494]LogWorld: Bringing up level for play took: 0.004349
+[2017.03.05-16.22.10:867][494]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.03.05-16.22.10:868][494]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap -0.11
+[2017.03.05-16.22.44:437][222]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\HOVERCRAFTtutto.obj)
+[2017.03.05-16.22.44:517][222]LogFbx: Loading FBX Scene from E:\HOVERCRAFTtutto.obj
+[2017.03.05-16.22.46:405][222]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.05-16.22.46:411][222]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.05-16.23.52:820][222]LogFbx: Loading FBX Scene from E:\HOVERCRAFTtutto.obj
+[2017.03.05-16.23.54:706][222]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.05-16.23.54:759][222]LogLinker: Can't find file '/Game/Meshes/HoverCreaft_Cubo_1Mat'
+[2017.03.05-16.23.54:759][222]LogLinker: Can't find file '/Game/Meshes/HoverCreaft_Cubo_1Mat'
+[2017.03.05-16.23.54:788][222]LogMaterial: Missing cached shader map for material HoverCreaft_Cubo_1Mat, compiling. 
+[2017.03.05-16.23.54:790][222]LogTemp:Display: Added material ShaderMap 0x000001DAA0539980 with Material 0x000001DA9E2F2F80 to ShaderMapsBeingCompiled
+[2017.03.05-16.23.54:862][222]LogTemp:Display: Kicking off shader compilation for HoverCreaft_Cubo_1Mat, GameThreadShaderMap 0x000001DAA0539980
+[2017.03.05-16.23.54:863][222]LogFbx:Warning: Triangulating static mesh HoverCreaft_Cubo_1
+[2017.03.05-16.24.32:198][222]LogStaticMesh: Building static mesh HOVERCRAFTtutto...
+[2017.03.05-16.24.32:725][222]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.05-16.24.37:233][222]LogStaticMesh: Built static mesh [5.04s] /Game/Meshes/HOVERCRAFTtutto.HOVERCRAFTtutto
+[2017.03.05-16.24.39:393][222]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.05-16.24.40:764][222]LogTemp:Display: Finished compile of shader map 0x000001DAA0539980
+[2017.03.05-16.24.40:764][222]LogTemp:Display: Shader map HoverCreaft_Cubo_1Mat complete, GameThreadShaderMap 0x000001DAA0539980, marking material HoverCreaft_Cubo_1Mat as finished
+[2017.03.05-16.24.40:764][222]LogTemp:Display: Marking material as finished 0x000001DA9E2F2F80
+[2017.03.05-16.24.46:634][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/HoverCreaft_Cubo_1Mat" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HoverCreaft_Cubo_1Mat.uasset" SILENT=true
+[2017.03.05-16.24.46:650][674]LogSavePackage: Save=14.99ms
+[2017.03.05-16.24.46:650][674]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/HoverCreaft_Cubo_1MatC29330C74066B3C059943D8BAAAB8FA6.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HoverCreaft_Cubo_1Mat.uasset'
+[2017.03.05-16.24.46:652][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HoverCreaft_Cubo_1Mat.uasset
+[2017.03.05-16.24.46:672][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/HOVERCRAFTtutto" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset" SILENT=true
+[2017.03.05-16.24.46:693][674]LogSavePackage: Save=20.62ms
+[2017.03.05-16.24.46:694][674]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/HOVERCRAFTtutto20B0674B47CFD8F7F52211BA020C4557.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset'
+[2017.03.05-16.24.46:695][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset
+[2017.03.05-16.24.48:381][729]LogRenderer: Reallocating scene render targets to support 952x564 NumSamples 1 (Frame:6126).
+[2017.03.05-16.25.01:026][447]LogEditorFactories: Performing atomic reimport of [E:/HOVERCRAFTtutto.obj]
+[2017.03.05-16.25.01:155][447]LogFbx: Loading FBX Scene from E:/HOVERCRAFTtutto.obj
+[2017.03.05-16.25.03:046][447]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.05-16.25.03:192][447]LogFbx:Warning: Triangulating static mesh HoverCreaft_Cubo_1
+[2017.03.05-16.25.38:193][447]LogStaticMesh: Building static mesh HOVERCRAFTtutto...
+[2017.03.05-16.25.38:720][447]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.05-16.25.43:232][447]LogStaticMesh: Built static mesh [5.04s] /Game/Meshes/HOVERCRAFTtutto.HOVERCRAFTtutto
+[2017.03.05-16.25.45:366][447]LogEditorFactories: -- imported successfully
+[2017.03.05-16.25.45:415][447]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.05-16.26.35:614][999]LogEditorFactories: Performing atomic reimport of [E:/HOVERCRAFTtutto.obj]
+[2017.03.05-16.26.35:746][999]LogFbx: Loading FBX Scene from E:/HOVERCRAFTtutto.obj
+[2017.03.05-16.26.37:616][999]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.05-16.26.37:705][999]LogFbx:Warning: Triangulating static mesh HoverCreaft_Cubo_1
+[2017.03.05-16.27.12:654][999]LogStaticMesh: Building static mesh HOVERCRAFTtutto...
+[2017.03.05-16.27.13:185][999]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.05-16.27.17:929][999]LogStaticMesh: Built static mesh [5.28s] /Game/Meshes/HOVERCRAFTtutto.HOVERCRAFTtutto
+[2017.03.05-16.27.20:003][999]LogEditorFactories: -- imported successfully
+[2017.03.05-16.27.20:054][999]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.05-16.27.35:539][891]LogEditorFactories: Performing atomic reimport of [E:/HOVERCRAFTtutto.obj]
+[2017.03.05-16.27.35:671][891]LogFbx: Loading FBX Scene from E:/HOVERCRAFTtutto.obj
+[2017.03.05-16.27.37:544][891]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.05-16.27.37:632][891]LogFbx:Warning: Triangulating static mesh HoverCreaft_Cubo_1
+[2017.03.05-16.28.12:079][891]LogStaticMesh: Building static mesh HOVERCRAFTtutto...
+[2017.03.05-16.28.12:607][891]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.05-16.28.17:150][891]LogStaticMesh: Built static mesh [5.07s] /Game/Meshes/HOVERCRAFTtutto.HOVERCRAFTtutto
+[2017.03.05-16.28.19:233][891]LogEditorFactories: -- imported successfully
+[2017.03.05-16.28.19:281][891]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.05-16.28.34:854][870]LogEditorFactories: Performing atomic reimport of [E:/HOVERCRAFTtutto.obj]
+[2017.03.05-16.28.34:965][870]LogFbx: Loading FBX Scene from E:/HOVERCRAFTtutto.obj
+[2017.03.05-16.28.36:846][870]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.05-16.28.36:936][870]LogFbx:Warning: Triangulating static mesh HoverCreaft_Cubo_1
+[2017.03.05-16.29.11:906][870]LogStaticMesh: Building static mesh HOVERCRAFTtutto...
+[2017.03.05-16.29.12:430][870]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.03.05-16.29.16:895][870]LogStaticMesh: Built static mesh [4.99s] /Game/Meshes/HOVERCRAFTtutto.HOVERCRAFTtutto
+[2017.03.05-16.29.18:969][870]LogEditorFactories: -- imported successfully
+[2017.03.05-16.29.19:017][870]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.05-16.29.27:744][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/HOVERCRAFTtutto" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset" SILENT=true
+[2017.03.05-16.29.27:867][390]LogSavePackage: Save=18.49ms
+[2017.03.05-16.29.27:867][390]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/HOVERCRAFTtuttoB81D39744D8845834E5A25B51BC630F5.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset'
+[2017.03.05-16.29.27:870][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset
+[2017.03.05-16.29.30:178][547]LogActorFactory: Actor Factory created HOVERCRAFTtutto
+[2017.03.05-16.29.30:469][578]LogActorFactory: Actor Factory created HOVERCRAFTtutto
+[2017.03.05-16.29.34:301][888]Cmd: DELETE
+[2017.03.05-16.29.34:301][888]Cmd: ACTOR DELETE
+[2017.03.05-16.29.34:302][888]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.05-16.29.34:368][888]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2017.03.05-16.29.39:254][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_HoverCreaft_Cubo_1Mat" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCreaft_Cubo_1Mat.uasset" SILENT=true
+[2017.03.05-16.29.39:272][176]LogSavePackage: Save=17.02ms
+[2017.03.05-16.29.39:272][176]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/M_HoverCreaft_Cubo_1MatEE74029343FD441C3F7C6C903C266959.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCreaft_Cubo_1Mat.uasset'
+[2017.03.05-16.29.39:274][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCreaft_Cubo_1Mat.uasset
+[2017.03.05-16.29.39:537][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/HOVERCRAFTtutto" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset" SILENT=true
+[2017.03.05-16.29.39:587][176]LogSavePackage: Save=48.03ms
+[2017.03.05-16.29.39:587][176]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/HOVERCRAFTtutto900966C44BA07E36A17C7393C8BFB42C.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset'
+[2017.03.05-16.29.39:589][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset
+[2017.03.05-16.29.46:095][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_HoverCreaft" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCreaft.uasset" SILENT=true
+[2017.03.05-16.29.46:116][558]LogSavePackage: Save=19.61ms
+[2017.03.05-16.29.46:116][558]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/M_HoverCreaft37D5540C43F040254C75DDB236003A75.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCreaft.uasset'
+[2017.03.05-16.29.46:118][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCreaft.uasset
+[2017.03.05-16.29.46:375][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/HOVERCRAFTtutto" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset" SILENT=true
+[2017.03.05-16.29.46:389][558]LogSavePackage: Save=12.22ms
+[2017.03.05-16.29.46:389][558]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/HOVERCRAFTtutto6194370B4D1F4235FCD5798B90467A4B.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset'
+[2017.03.05-16.29.46:391][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset
+[2017.03.05-16.29.49:905][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_HoverCraft" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCraft.uasset" SILENT=true
+[2017.03.05-16.29.49:928][734]LogSavePackage: Save=21.63ms
+[2017.03.05-16.29.49:928][734]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/M_HoverCraft9FA3B8B8435491C4233CBCBCE68D0790.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCraft.uasset'
+[2017.03.05-16.29.49:930][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/M_HoverCraft.uasset
+[2017.03.05-16.29.50:215][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/HOVERCRAFTtutto" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset" SILENT=true
+[2017.03.05-16.29.50:229][734]LogSavePackage: Save=12.02ms
+[2017.03.05-16.29.50:230][734]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/HOVERCRAFTtutto68793D934054C07A0AFA1A9B57B907D8.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset'
+[2017.03.05-16.29.50:231][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Meshes/HOVERCRAFTtutto.uasset
+[2017.03.05-16.29.57:673][198]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.03.05-16.29.58:441][198]LogSlate: Took 0.014747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.05-16.29.58:582][199]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.05-16.31.59:346][ 24]LogEditorTransaction: Undo Remove Components
+[2017.03.05-16.32.30:114][413]BlueprintLog: New page: Compile BP_Hovercraft
+[2017.03.05-16.32.33:952][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.05-16.32.34:161][773]LogSavePackage: Save=170.15ms
+[2017.03.05-16.32.34:161][773]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/MyMap1E4B38254B00CF458AE3CF84D0DF6CD3.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap'
+[2017.03.05-16.32.34:163][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap
+[2017.03.05-16.32.34:187][773]LogFileHelpers: Saving map 'MyMap' took 0.274
+[2017.03.05-16.32.34:208][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hovercraft" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset" SILENT=true
+[2017.03.05-16.32.34:248][773]LogSavePackage: Save=32.66ms
+[2017.03.05-16.32.34:248][773]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/BP_Hovercraft50C5F93942F3C124C205129B6F3F40C6.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset'
+[2017.03.05-16.32.34:249][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset
+[2017.03.05-16.32.34:662][822]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.32.34:676][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-16.32.34:677][822]PIE: New page: PIE session: MyMap (5 Mar 2017 18:32:34)
+[2017.03.05-16.32.34:677][822]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.32.34:689][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012484s)
+[2017.03.05-16.32.34:690][822]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.32.34:690][822]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2017.03.05-16.32.34:690][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.013525s)
+[2017.03.05-16.32.34:724][822]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.32.34:728][822]LogInit: FAudioDevice initialized.
+[2017.03.05-16.32.34:762][822]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.32.34:766][822]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.32.34
+[2017.03.05-16.32.34:766][822]LogWorld: Bringing up level for play took: 0.003053
+[2017.03.05-16.32.34:767][822]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap -0.211
+[2017.03.05-16.33.27:684][696]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.33.27:697][696]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.33.27:697][696]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.33.27:893][696]LogPlayLevel: PlayLevel: Blueprint regeneration took 196 ms (1 blueprints)
+[2017.03.05-16.33.27:893][696]PIE: New page: PIE session: MyMap (5 Mar 2017 18:33:27)
+[2017.03.05-16.33.27:893][696]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.33.27:904][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010804s)
+[2017.03.05-16.33.27:905][696]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.33.27:905][696]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2017.03.05-16.33.27:905][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.011811s)
+[2017.03.05-16.33.27:937][696]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.33.27:941][696]LogInit: FAudioDevice initialized.
+[2017.03.05-16.33.27:980][696]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.33.27:983][696]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.33.27
+[2017.03.05-16.33.27:983][696]LogWorld: Bringing up level for play took: 0.003510
+[2017.03.05-16.33.27:986][696]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 1.008
+[2017.03.05-16.33.28:050][696]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:45985).
+[2017.03.05-16.33.42:203][799]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.33.42:217][799]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.33.42:217][799]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.33.42:339][799]LogPlayLevel: PlayLevel: Blueprint regeneration took 121 ms (1 blueprints)
+[2017.03.05-16.33.42:339][799]PIE: New page: PIE session: MyMap (5 Mar 2017 18:33:42)
+[2017.03.05-16.33.42:339][799]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.33.42:349][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010521s)
+[2017.03.05-16.33.42:350][799]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.33.42:350][799]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2017.03.05-16.33.42:350][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.011428s)
+[2017.03.05-16.33.42:383][799]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.33.42:386][799]LogInit: FAudioDevice initialized.
+[2017.03.05-16.33.42:425][799]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.33.42:429][799]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.33.42
+[2017.03.05-16.33.42:429][799]LogWorld: Bringing up level for play took: 0.003596
+[2017.03.05-16.33.42:432][799]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap -0.546
+[2017.03.05-16.33.56:436][993]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.03.05-16.34.16:722][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.05-16.34.16:762][713]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.05-16.34.17:005][713]LogSavePackage: Save=249.89ms
+[2017.03.05-16.34.17:005][713]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/MyMapB35D022D44D6A08D26BF0E8BFB9683C0.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap'
+[2017.03.05-16.34.17:007][713]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap
+[2017.03.05-16.34.17:026][713]LogFileHelpers: Saving map 'MyMap' took 0.345
+[2017.03.05-16.34.17:048][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hovercraft" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset" SILENT=true
+[2017.03.05-16.34.17:083][713]LogSavePackage: Save=33.47ms
+[2017.03.05-16.34.17:083][713]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/BP_HovercraftBA8CFC9F4D20A055C5A92B8215C722E2.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset'
+[2017.03.05-16.34.17:085][713]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset
+[2017.03.05-16.34.18:900][904]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.34.18:921][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-16.34.18:921][904]PIE: New page: PIE session: MyMap (5 Mar 2017 18:34:18)
+[2017.03.05-16.34.18:921][904]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.34.18:941][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019802s)
+[2017.03.05-16.34.18:942][904]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.34.18:942][904]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2017.03.05-16.34.18:942][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.021095s)
+[2017.03.05-16.34.19:060][904]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.34.19:066][904]LogInit: FAudioDevice initialized.
+[2017.03.05-16.34.19:102][904]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.34.19:106][904]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.34.19
+[2017.03.05-16.34.19:107][904]LogWorld: Bringing up level for play took: 0.004260
+[2017.03.05-16.34.19:135][904]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.05-16.34.19:136][904]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 0.158
+[2017.03.05-16.34.39:002][ 50]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.34.39:016][ 50]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.34.39:016][ 50]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.34.39:153][ 50]LogPlayLevel: PlayLevel: Blueprint regeneration took 137 ms (1 blueprints)
+[2017.03.05-16.34.39:153][ 50]PIE: New page: PIE session: MyMap (5 Mar 2017 18:34:39)
+[2017.03.05-16.34.39:153][ 50]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.34.39:164][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010626s)
+[2017.03.05-16.34.39:165][ 50]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.34.39:165][ 50]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2017.03.05-16.34.39:165][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.011635s)
+[2017.03.05-16.34.39:197][ 50]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.34.39:201][ 50]LogInit: FAudioDevice initialized.
+[2017.03.05-16.34.39:241][ 50]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.34.39:244][ 50]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.34.39
+[2017.03.05-16.34.39:244][ 50]LogWorld: Bringing up level for play took: 0.003431
+[2017.03.05-16.34.39:245][ 50]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.05-16.34.39:247][ 50]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 0.269
+[2017.03.05-16.35.05:334][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.05-16.35.05:531][330]LogSavePackage: Save=164.86ms
+[2017.03.05-16.35.05:531][330]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/MyMap7246F2234ACF27900AE4AF88DE920B88.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap'
+[2017.03.05-16.35.05:533][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap
+[2017.03.05-16.35.05:552][330]LogFileHelpers: Saving map 'MyMap' took 0.258
+[2017.03.05-16.35.05:617][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hovercraft" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset" SILENT=true
+[2017.03.05-16.35.05:654][330]LogSavePackage: Save=34.19ms
+[2017.03.05-16.35.05:654][330]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/BP_Hovercraft11C2EE884AFFA07D393EA4A8996DDE3E.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset'
+[2017.03.05-16.35.05:655][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset
+[2017.03.05-16.37.19:027][375]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.37.19:040][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-16.37.19:040][375]PIE: New page: PIE session: MyMap (5 Mar 2017 18:37:19)
+[2017.03.05-16.37.19:040][375]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.37.19:052][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011874s)
+[2017.03.05-16.37.19:053][375]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.37.19:053][375]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2017.03.05-16.37.19:053][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.013001s)
+[2017.03.05-16.37.19:092][375]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.37.19:096][375]LogInit: FAudioDevice initialized.
+[2017.03.05-16.37.19:133][375]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.37.19:138][375]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.37.19
+[2017.03.05-16.37.19:138][375]LogWorld: Bringing up level for play took: 0.004415
+[2017.03.05-16.37.19:138][375]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.05-16.37.19:140][375]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 0.162
+[2017.03.05-16.37.58:436][799]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.37.58:451][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-16.37.58:451][799]PIE: New page: PIE session: MyMap (5 Mar 2017 18:37:58)
+[2017.03.05-16.37.58:451][799]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.37.58:464][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012860s)
+[2017.03.05-16.37.58:464][799]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.37.58:465][799]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2017.03.05-16.37.58:465][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.013930s)
+[2017.03.05-16.37.58:503][799]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.37.58:507][799]LogInit: FAudioDevice initialized.
+[2017.03.05-16.37.58:537][799]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.37.58:541][799]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.37.58
+[2017.03.05-16.37.58:541][799]LogWorld: Bringing up level for play took: 0.003088
+[2017.03.05-16.37.58:556][799]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap -0.422
+[2017.03.05-16.38.15:537][637]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.05-16.38.57:843][ 29]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.38.57:856][ 29]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.38.57:856][ 29]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.38.58:002][ 29]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
+[2017.03.05-16.38.58:002][ 29]PIE: New page: PIE session: MyMap (5 Mar 2017 18:38:58)
+[2017.03.05-16.38.58:002][ 29]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.38.58:013][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010619s)
+[2017.03.05-16.38.58:014][ 29]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.38.58:014][ 29]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2017.03.05-16.38.58:014][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.011619s)
+[2017.03.05-16.38.58:046][ 29]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.38.58:049][ 29]LogInit: FAudioDevice initialized.
+[2017.03.05-16.38.58:092][ 29]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.38.58:097][ 29]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.38.58
+[2017.03.05-16.38.58:097][ 29]LogWorld: Bringing up level for play took: 0.005071
+[2017.03.05-16.38.58:101][ 29]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 1.123
+[2017.03.05-16.39.10:538][132]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.39.10:550][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-16.39.10:550][132]PIE: New page: PIE session: MyMap (5 Mar 2017 18:39:10)
+[2017.03.05-16.39.10:551][132]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.39.10:562][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011230s)
+[2017.03.05-16.39.10:563][132]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.39.10:563][132]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.03.05-16.39.10:563][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.012135s)
+[2017.03.05-16.39.10:599][132]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.39.10:603][132]LogInit: FAudioDevice initialized.
+[2017.03.05-16.39.10:642][132]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.39.10:647][132]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.39.10
+[2017.03.05-16.39.10:647][132]LogWorld: Bringing up level for play took: 0.004409
+[2017.03.05-16.39.10:650][132]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap -0.328
+[2017.03.05-16.39.57:943][ 37]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.39.57:959][ 37]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.39.57:960][ 37]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.39.58:090][ 37]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
+[2017.03.05-16.39.58:090][ 37]PIE: New page: PIE session: MyMap (5 Mar 2017 18:39:58)
+[2017.03.05-16.39.58:090][ 37]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.39.58:101][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011478s)
+[2017.03.05-16.39.58:102][ 37]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.39.58:102][ 37]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.03.05-16.39.58:103][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.012791s)
+[2017.03.05-16.39.58:136][ 37]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.39.58:139][ 37]LogInit: FAudioDevice initialized.
+[2017.03.05-16.39.58:183][ 37]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.39.58:188][ 37]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.39.58
+[2017.03.05-16.39.58:188][ 37]LogWorld: Bringing up level for play took: 0.004701
+[2017.03.05-16.39.58:191][ 37]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 1.213
+[2017.03.05-16.40.44:847][565]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.40.44:860][565]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.40.44:860][565]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.40.44:991][565]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2017.03.05-16.40.44:991][565]PIE: New page: PIE session: MyMap (5 Mar 2017 18:40:44)
+[2017.03.05-16.40.44:991][565]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.40.45:002][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011247s)
+[2017.03.05-16.40.45:003][565]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.40.45:003][565]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2017.03.05-16.40.45:003][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.012125s)
+[2017.03.05-16.40.45:036][565]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.40.45:039][565]LogInit: FAudioDevice initialized.
+[2017.03.05-16.40.45:075][565]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.40.45:078][565]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.40.45
+[2017.03.05-16.40.45:079][565]LogWorld: Bringing up level for play took: 0.003218
+[2017.03.05-16.40.45:081][565]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 0.103
+[2017.03.05-16.41.19:561][  0]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.41.19:577][  0]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.41.19:577][  0]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.41.19:705][  0]LogPlayLevel: PlayLevel: Blueprint regeneration took 128 ms (1 blueprints)
+[2017.03.05-16.41.19:705][  0]PIE: New page: PIE session: MyMap (5 Mar 2017 18:41:19)
+[2017.03.05-16.41.19:705][  0]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.41.19:716][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010887s)
+[2017.03.05-16.41.19:717][  0]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.41.19:717][  0]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.03.05-16.41.19:717][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.011865s)
+[2017.03.05-16.41.19:750][  0]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.41.19:754][  0]LogInit: FAudioDevice initialized.
+[2017.03.05-16.41.19:795][  0]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.41.19:799][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.41.19
+[2017.03.05-16.41.19:799][  0]LogWorld: Bringing up level for play took: 0.003849
+[2017.03.05-16.41.19:805][  0]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 0.827
+[2017.03.05-16.41.46:539][511]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.41.46:552][511]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.41.46:552][511]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.41.46:686][511]LogPlayLevel: PlayLevel: Blueprint regeneration took 134 ms (1 blueprints)
+[2017.03.05-16.41.46:686][511]PIE: New page: PIE session: MyMap (5 Mar 2017 18:41:46)
+[2017.03.05-16.41.46:686][511]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.41.46:697][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010696s)
+[2017.03.05-16.41.46:697][511]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.41.46:697][511]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.03.05-16.41.46:698][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.011639s)
+[2017.03.05-16.41.46:731][511]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.41.46:735][511]LogInit: FAudioDevice initialized.
+[2017.03.05-16.41.46:775][511]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.41.46:778][511]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.41.46
+[2017.03.05-16.41.46:778][511]LogWorld: Bringing up level for play took: 0.003511
+[2017.03.05-16.41.46:781][511]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap -0.197
+[2017.03.05-16.41.55:291][239]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.41.55:317][239]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.41.55:317][239]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.41.55:610][239]LogPlayLevel: PlayLevel: Blueprint regeneration took 292 ms (1 blueprints)
+[2017.03.05-16.41.55:610][239]PIE: New page: PIE session: MyMap (5 Mar 2017 18:41:55)
+[2017.03.05-16.41.55:610][239]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.41.55:632][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021799s)
+[2017.03.05-16.41.55:633][239]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.41.55:633][239]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2017.03.05-16.41.55:633][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.023078s)
+[2017.03.05-16.41.55:696][239]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.41.55:704][239]LogInit: FAudioDevice initialized.
+[2017.03.05-16.41.55:747][239]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.41.55:752][239]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.41.55
+[2017.03.05-16.41.55:753][239]LogWorld: Bringing up level for play took: 0.005171
+[2017.03.05-16.41.55:758][239]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 0.78
+[2017.03.05-16.42.05:092][ 16]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.42.05:121][ 16]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.42.05:121][ 16]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.42.05:384][ 16]LogPlayLevel: PlayLevel: Blueprint regeneration took 263 ms (1 blueprints)
+[2017.03.05-16.42.05:384][ 16]PIE: New page: PIE session: MyMap (5 Mar 2017 18:42:05)
+[2017.03.05-16.42.05:384][ 16]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.42.05:406][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021732s)
+[2017.03.05-16.42.05:407][ 16]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.42.05:407][ 16]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2017.03.05-16.42.05:407][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.023031s)
+[2017.03.05-16.42.05:493][ 16]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.42.05:499][ 16]LogInit: FAudioDevice initialized.
+[2017.03.05-16.42.05:546][ 16]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.42.05:554][ 16]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.42.05
+[2017.03.05-16.42.05:554][ 16]LogWorld: Bringing up level for play took: 0.006803
+[2017.03.05-16.42.05:559][ 16]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 0.581
+[2017.03.05-16.42.15:585][871]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.05-16.42.15:608][871]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.05-16.42.15:608][871]LogPlayLevel: [PlayLevel] Compiling BP_Hovercraft before play...
+[2017.03.05-16.42.15:849][871]LogPlayLevel: PlayLevel: Blueprint regeneration took 240 ms (1 blueprints)
+[2017.03.05-16.42.15:849][871]PIE: New page: PIE session: MyMap (5 Mar 2017 18:42:15)
+[2017.03.05-16.42.15:849][871]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyMap
+[2017.03.05-16.42.15:871][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021671s)
+[2017.03.05-16.42.15:871][871]LogAIModule: Creating AISystem for world MyMap
+[2017.03.05-16.42.15:872][871]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2017.03.05-16.42.15:872][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap.MyMap to /Game/Maps/UEDPIE_0_MyMap.MyMap (0.023044s)
+[2017.03.05-16.42.15:927][871]LogInit: XAudio2 using 'SAMSUNG (Audio Intel(R) per schermi)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-16.42.15:933][871]LogInit: FAudioDevice initialized.
+[2017.03.05-16.42.15:975][871]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-16.42.15:979][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap.MyMap up for play (max tick rate 0) at 2017.03.05-17.42.15
+[2017.03.05-16.42.15:980][871]LogWorld: Bringing up level for play took: 0.004587
+[2017.03.05-16.42.15:983][871]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap 1.005
+[2017.03.05-16.42.39:394][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.05-16.42.39:437][876]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.05-16.42.39:760][876]LogSavePackage: Save=330.03ms
+[2017.03.05-16.42.39:760][876]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/MyMap3D9DB0F94AB99D34351B1A9E253E477A.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap'
+[2017.03.05-16.42.39:762][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Maps/MyMap.umap
+[2017.03.05-16.42.39:782][876]LogFileHelpers: Saving map 'MyMap' took 0.499
+[2017.03.05-16.42.39:849][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hovercraft" FILE="../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset" SILENT=true
+[2017.03.05-16.42.39:889][876]LogSavePackage: Save=33.46ms
+[2017.03.05-16.42.39:889][876]LogSavePackage: Moving '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Saved/BP_Hovercraft6B5D1C8C47F939F6234FF68589DFA3BB.tmp' to '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset'
+[2017.03.05-16.42.39:891][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/Blueprints/BP_Hovercraft.uasset
+[2017.03.05-16.42.41:252][981]Cmd: QUIT_EDITOR
+[2017.03.05-16.42.41:899][981]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-16.42.41:930][981]LogExit: Preparing to exit.
+[2017.03.05-16.42.43:366][981]LogDirectoryWatcher: A directory notification for 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Content/' was aborted.
+[2017.03.05-16.42.43:879][981]LogExit: Editor shut down
+[2017.03.05-16.42.43:881][981]LogExit: Transaction tracking system shut down
+[2017.03.05-16.42.44:089][981]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.05-16.42.44:089][981]LogExit: Object subsystem successfully closed.
+[2017.03.05-16.42.44:125][981]LogD3D11RHI: Shutdown
+[2017.03.05-16.42.44:125][981]LogD3D11RHI: CleanupD3DDevice
+[2017.03.05-16.42.44:263][981]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (506)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (500)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (498)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.05-16.42.44:275][981]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.05-16.42.44:275][981]LogDirectoryWatcher: A directory notification for 'D:/UnrealInstallations/UE4.15/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.05-16.42.44:284][981]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.05-16.42.44:284][981]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.05-16.42.44:284][981]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.05-16.42.44:284][981]LogDirectoryWatcher: A directory notification for 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Content/Collections/' was aborted.
+[2017.03.05-16.42.44:285][981]LogDirectoryWatcher: A directory notification for 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Content/Developers/vigamus07/Collections/' was aborted.
+[2017.03.05-16.42.44:285][981]LogDirectoryWatcher: A directory notification for 'D:/Repos/VlabsOvercraft/VlabsOvercraft/Saved/Collections/' was aborted.
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.05-16.42.44:285][981]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.05-16.42.44:286][981]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.05-16.42.44:286][981]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.05-16.42.44:286][981]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.05-16.42.44:286][981]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.05-16.42.44:286][981]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.05-16.42.44:286][981]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.05-16.42.44:286][981]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.05-16.42.44:706][981]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.05-16.42.44:707][981]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.05-16.42.44:761][981]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.05-16.42.44:767][981]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.05-16.42.44:768][981]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.05-16.42.44:775][981]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.05-16.42.44:776][981]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.05-16.42.44:777][981]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.05-16.42.44:777][981]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.05-16.42.44:777][981]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.05-16.42.44:777][981]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.05-16.42.44:779][981]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.05-16.42.44:779][981]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.05-16.42.44:779][981]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.05-16.42.44:779][981]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.05-16.42.44:880][981]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.05-16.42.44:997][981]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.05-16.42.44:997][981]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.05-16.42.44:997][981]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.05-16.42.44:997][981]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.05-16.42.44:997][981]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.05-16.42.44:997][981]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.05-16.42.44:998][981]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.05-16.42.44:998][981]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.05-16.42.44:998][981]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.05-16.42.44:998][981]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.05-16.42.44:999][981]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.05-16.42.45:004][981]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.05-16.42.45:005][981]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.05-16.42.45:005][981]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.05-16.42.45:005][981]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.05-16.42.45:005][981]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.05-16.42.45:005][981]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.05-16.42.45:261][981]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.05-16.42.45:261][981]LogDirectoryWatcher: A directory notification for '../../../../../../Repos/VlabsOvercraft/VlabsOvercraft/Content/' was aborted.
+[2017.03.05-16.42.45:261][981]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.05-16.42.45:262][981]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.05-16.42.45:267][981]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.05-16.42.45:298][981]LogDerivedDataCache: Shutdown
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.05-16.42.45:298][981]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.05-16.42.45:299][981]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.05-16.42.45:299][981]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.05-16.42.45:299][981]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.05-16.42.45:299][981]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC66C8D09-462D-B9E7-4A93-6BB75325492B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=fb9b42b642a7815554e2c486cf3e3edb%7C894935d2fb384cffab5e9c9c750f59bb%7Cdb94e6ab-d868-4210-8be5-52235d9d2baa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.05-16.42.45:331][981]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.05-16.42.45:333][981]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.05-16.42.45:333][981]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.05-16.42.45:333][981]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.05-16.42.45:333][981]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.05-16.42.45:333][981]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.05-16.42.45:338][981]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.05-16.42.45:339][981]LogExit: Exiting.
+[2017.03.05-16.42.45:357][981]Log file closed, 03/05/17 17:42:45
